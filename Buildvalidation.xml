@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation Test">
+	<test name="Smoke Test">
+		<!-- <packages>
+			<package name=""></package>
+		</packages> -->
+		<classes>
+			<class name="datadriven.Provider"></class>
+		</classes>
+	</test>
+</suite>

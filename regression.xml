@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation Test">
+	<test name="Smoke Test">
+	<parameter name="adminuserid" value="varun"/>
+	<classes>
+	<class name="datadriven.Paramprovide">
+	
+	</class>
+	</classes>
+	<!-- <packages>
+		<package name="datadriven"></package>
+	</packages> -->
+	</test>
+</suite>

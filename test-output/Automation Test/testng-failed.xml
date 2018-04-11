@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Test]">
+  <test name="Smoke Test(failed)">
+    <parameter name="adminuserid" value="varun"/>
+    <classes>
+      <class name="datadriven.Paramprovide">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- datadriven.Paramprovide -->
+      <class name="datadriven.Provider">
+        <methods>
+          <include name="Login1"/>
+        </methods>
+      </class> <!-- datadriven.Provider -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Automation Test] -->
